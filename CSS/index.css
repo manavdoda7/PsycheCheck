@@ -7,18 +7,29 @@ body {
     font-family: "Quicksand", sans-serif;
     font-size: 62.5%;
     font-size: 10px;
+    overflow-x: hidden;
 }
 /*-- Inspiration taken from abdo steif -->
 /* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
 
 /* Navbar section */
 
+.btn{
+  background: #442f5a;
+  color: #fff;
+}
+.btn:hover{
+  background: #442f5a;
+  color: #fff;
+  opacity: 0.6;
+}
 .nav {
     width: 100%;
     height: 65px;
     position: fixed;
     line-height: 65px;
     text-align: center;
+    z-index: 50;
 }
 
 .nav div.logo {
@@ -71,14 +82,14 @@ body {
 .nav div.main_list ul li a:hover {
     color: #00E676;
 }
-
+.navlinks{
+  z-index: 200;
+}
 
 /* Home section */
 
-.home {
+.home img{
     width: 100%;
-    height: 100vh;
-    background-image: url(../Assets/Images/home.jpg);
     background-position: center top;
 	background-size:cover;
 }
@@ -372,15 +383,16 @@ body {
 /* Cards Section */
 
   .cards-section{
-    font-size: 18px;
+    font-size: 13px;
     line-height: 1.5;
     font-weight: 300;
     color: #333;
     font-family: "Nunito Sans", sans-serif;
     margin: 0;
     padding: 0;
-    height: 100vh;
-    background-color: #ecf0f9;
+    min-height: 120vh;
+    padding-bottom: 20vh;
+    /* background-color: #ecf0f9; */
     background-attachment: fixed;
     box-sizing: border-box;
   }
@@ -398,13 +410,15 @@ body {
     width: 100%;
     margin-left: 1rem;
     font-weight: 900;
-    font-size: 1.618rem;
-    text-transform: uppercase;
+    font-size: 5rem;
+    /* text-transform: uppercase; */
     letter-spacing: 0.1ch;
     line-height: 1;
     padding-bottom: 0.5em;
     margin-bottom: 1rem;
     position: relative;
+    color: #442f5a;
+    text-shadow: #555 3px 3px 10px;
   }
   .heading:after {
     display: block;
@@ -428,11 +442,11 @@ body {
     cursor: pointer;
     width: calc(33% - 2rem);
     min-width: calc(33% - 2rem);
-    height: 400px;
     min-height: 400px;
     perspective: 1000px;
     margin: 1rem;
     position: relative;
+    text-shadow: #555 2px 2px 5px;
   }
   @media screen and (max-width: 800px) {
     .card {
@@ -562,3 +576,300 @@ body {
     transform: translateZ(-20px);
     top: 12px;
   }
+
+  /* Quiz section */
+  .odd{
+      min-height: 100vh;
+      background: #695281;
+      position: relative;
+  }
+  .heading-2 {
+    width: 100%;
+    margin-left: 1rem;
+    font-weight: 900;
+    font-size: 5rem;
+    /* text-transform: uppercase; */
+    padding-top: 12rem !important;
+    letter-spacing: 0.1ch;
+    line-height: 1;
+    padding-bottom: 0.5em;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-shadow: #aaa 3px 3px 10px;
+  }
+
+  .wave{
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    top: 0;
+    left: 0;
+    /* width: 50%; */
+    background-repeat: no-repeat;
+  }
+
+  /* Contact Form CSS */
+  .contact {
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .contact .contact-container {
+    display: flex;
+    width: 100vw;
+    min-height: 70vh;
+    background: var(#FCFDFD);
+  }
+  
+  .contact .left-col {
+    min-width: 45vw;
+    height: 70vh;
+    background-image: url("../Assets/Images/contact.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .contact .logo {
+    width: 10rem;
+    padding: 1.5rem;
+  }
+  
+  .contact .right-col {
+    background: var(#FCFDFD);
+    width: 50vw;
+    min-height: 70vh;
+    padding: 5rem 3.5rem;
+  }
+  
+  .contact h1, .contact label, .contact button, .contact .description {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+  }
+  
+  .contact p {
+    color: #442f5a;
+  }
+  
+  .contact h1 {
+    width: 100%;
+    margin-left: 1rem;
+    font-weight: 900;
+    font-size: 5rem;
+    /* text-transform: uppercase; */
+    letter-spacing: 0.1ch;
+    line-height: 1;
+    padding-bottom: 0.5em;
+    margin-bottom: 1rem;
+    position: relative;
+    color: #442f5a;
+    text-shadow: #555 3px 3px 10px;
+  }
+  .contact label, .contact .description {
+    color: var(#818386);
+    text-transform: uppercase;
+  }
+  
+  .contact form {
+    width: 31.25rem;
+    position: relative;
+    margin-top: 2rem;
+    padding: 1rem 0;
+  }
+  
+  .contact input, .contact textarea, .contact label {
+    width: 40vw;
+    display: block;
+  }
+  
+  .contact p, .contact placeholder, .contact input, .contact textarea {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  .contact input::placeholder, .contact textarea::placeholder {
+    color: var(#010712);
+  }
+  
+  .contact input, .contact textarea {
+    color: var(#010712);
+    font-weight: 500;
+    background: var(#FCFDFD);
+    border: none;
+    border-bottom: 1px solid var(#818386);
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+    outline: none;
+  }
+  
+  .contact textarea {
+    resize: none;
+  }
+  
+  .contact button {
+    text-transform: uppercase;
+    font-weight: 300;
+    background: var(#3B3636);
+    color: var(#FCFDFD);
+    width: 10rem;
+    height: 2.25rem;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .contact input:hover, .contact textarea:hover, .contact button:hover {
+    opacity: 0.5;
+  }
+  
+  .contact button:active {
+    opacity: 0.8;
+  }
+  
+  /* Toggle Switch */
+  
+  .contact .theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 160px;
+    position: absolute;
+    top: 0.5rem;
+    right: 0;
+  }
+  
+  .contact .description {
+      margin-left: 1.25rem;
+    }
+  
+  .contact .theme-switch {
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    width: 60px;
+  }
+  
+  .contact .theme-switch input {
+    display:none;
+  }
+  
+  .slider {
+    background-color: #ccc;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    background-color: #fff;
+    bottom: 0.25rem;
+    content: "";
+    width: 26px;
+    height: 26px;
+    left: 0.25rem;
+    position: absolute;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: var(#3B3636);
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+  #error, #success-msg {
+    width: 40vw;
+    margin: 0.125rem 0;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    font-family: 'Jost';
+    color: var(#818386);
+    }
+  
+  
+    #success-msg {
+    transition-delay: 3s;
+    }
+  
+  @media only screen and (max-width: 950px) {
+    .contact .logo {
+      width: 8rem;
+    }
+    .contact h1 {
+      font-size: 1.75rem;
+    }
+    .contact p {
+      font-size: 0.7rem;
+    }
+    .contact input, .contact textarea, .contact button {
+      font-size: 0.65rem;
+    }
+    .contact .description {
+      font-size: 0.3rem;
+      margin-left: 0.4rem;
+    }
+    .contact button {
+      width: 7rem;
+    }
+    .contact .theme-switch-wrapper {
+      width: 120px;
+    }
+    .contact .theme-switch {
+    height: 28px;
+    width: 50px;
+  }
+  
+  .contact .theme-switch input {
+    display:none;
+  }
+  
+  .slider:before {
+    background-color: #fff;
+    bottom: 0.25rem;
+    content: "";
+    width: 20px;
+    height: 20px;
+    left: 0.25rem;
+    position: absolute;
+    transition: .4s;
+  }
+    input:checked + .slider:before {
+    transform: translateX(16px);
+  }
+  
+  .slider.round {
+    border-radius: 15px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+}
+
+/* Footer CSS */
+footer {
+  text-align: center;
+  background-color: #442f5a;
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+  /* position: fixed;
+  z-index: 1; */
+}

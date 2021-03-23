@@ -2,182 +2,252 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="CSS/index.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="CSS/index.css">
 
-    <title>Hello, world!</title>
+  <title>Hello, world!</title>
 </head>
 
 <body>
-    <!-- Navbar begins -->
-    <nav class="nav">
-        <div class="container">
-            <div class="logo">
-                <a href="#">Your Logo</a>
-            </div>
-            <div id="mainListDiv" class="main_list">
-                <ul class="navlinks">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Self Assessment</a></li>
-                    <li><a href="#">Login</a></li>
-                </ul>
-            </div>
-            <span class="navTrigger">
-                <i></i>
-                <i></i>
-                <i></i>
-            </span>
+  <!-- Navbar begins -->
+  <nav class="nav">
+    <div class="container">
+      <div class="logo">
+        <a href="#">Your Logo</a>
+      </div>
+      <div id="mainListDiv" class="main_list">
+        <ul class="navlinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#quiz">Self Assessment</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </div>
+      <span class="navTrigger">
+        <i></i>
+        <i></i>
+        <i></i>
+      </span>
+    </div>
+  </nav>
+  <a name="home"></a>
+  <section class="home">
+    <img src="Assets/Images/home.jpg" alt="">
+  </section>
+  <section class="cards-section">
+    <div class="content">
+      <h1 class="heading text-center text-capitalize pt-5">Types of Mental illness</h1>
+      <a class="card" href="#!">
+        <div class="front" style="background-image: url(Assets/Images/depression.png);">
+          <p>Depression</p>
         </div>
-    </nav>
-    <section class="home">
-    </section>
-    <section class="cards-section">
-        <div class="content">
-            <h1 class="heading">Mental illness</h1>
-            <p class="description">Have a look on it</p><a class="card" href="#!">
-              <div class="front" style="background-image: url(Assets/Images/depression.png);" >
-                <p>Depression</p>
-              </div>
-              <div class="back">
-                <div>
-                  <p>Symptoms:</p>
-                  <p> 
-                   <ul>
-                    <li>Feel sad, irritable, guilty and frustrated.</li>
-                    <li>Feel lack in confidence and unable to concentrate.</li>
-                    <li>Stop their usual enjoyable activities</li>
-                    <li>Withdraw from close family and friends</li>
-                    <li>Experience sleep problems, change of appetite and significant weight loss or gain.</li>
-                  </ul> 
-                  </p>
-                  <button class="button">Click Here</button>
-                </div>C:
-              </div></a><a class="card" href="#!">
-              <div class="front" style="background-image: url(Assets/Images/ocdoriginal.png);">
-                <p>Obsessive compulsive disorder (OCD)</p>
-              </div>
-              <div class="back">
-                <div>
-                  <p>Symptoms:</p>
-                  <p>
-                    <ul>
-                      <li>Fear of contamination from germs, dirt, and other physical and environmental substances</li>
-                      <li>Intrusive thoughts and images about sex, violence, accidents and other issues</li>
-                      <li>Excessive concern with symmetry and orderliness</li>
-                      <li>Excessive concerns about illness, religious issues or morality</li>
-                      
-                      <li>Excessive hand washing, showering and tooth brushing</li>
-
-                    </ul>
-                  </p>
-                  <button class="button">Click Here</button>
-                </div>
-              </div></a><a class="card" href="#!">
-              <div class="front" style="background-image: url(Assets/Images/PTSD.png)">
-                <p>Post-traumatic stress disorder (PTSD)</p>
-              </div>
-              <div class="back">
-                <div>
-                  <p>Symptoms:</p>
-                  <p>
-                    <ul>
-                      <li>Avoiding reminders of the event, such as thoughts, feelings, people, places, activities or situations that bring back memories of the event.</li>
-                      <li>Negative changes in feelings and thoughts, such as feeling angry, afraid, guilty, flat or numb, and feeling cut off from others.</li>
-                      <li>Being overly alert, becoming easily startled and constantly being on the lookout for signs of danger.</li>
-                    </ul>
-                  </p>
-                  <button class="button">Click Here</button>
-                </div>
-              </div></a><a class="card" href="#!">
-              <div class="front" style="background-image: url(Assets/Images/BIPOLAR.png)">
-                <p>Bipolar affective disorder</p>
-              </div>
-              <div class="back">
-                <div>
-                  <p>Symptoms:</p>
-                  <p>
-                    <ul>
-                    
-                    <li>Going without sleep and difficulty concentrating</li>
-                    <li>Thinking and speaking quickly</li>
-                    <li>Reckless behaviour, such as overspending</li>
-                    <li>Participating in unsafe sexual activity</li>
-                    <li>Withdrawal from people and activities</li>
-                    <li>Feelings of sadness and guilty</li>
-                    </ul>
-                  </p>
-                  <button class="button">Click Here</button>
-                </div>
-              </div></a><a class="card" href="#!">
-              <div class="front" style="background-image: url(Assets/Images/PSYCHOSIS.png)">
-                <p>Psychosis</p>
-              </div>
-              <div class="back">
-                <div>
-                  <p>Symptoms:</p>
-                  <p>
-                    <ul>
-                      <li>Confused thinking</li>
-                      <li>Delusions – false beliefs that are not shared by others.</li>
-                      <li>Hallucinations – hearing, seeing, smelling or tasting something that isn't there.</li>
-                      <li>Changed behaviours and feelings.</li>
-                    </ul>
-                  </p>
-                  <button class="button">Click Here</button>
-                </div>
-              </div></a><a class="card" href="#!">
-              <div class="front" style="background-image: url(Assets/Images/addiction.png)">
-                <p>Addiction</p>
-              </div>
-              <div class="back">
-                <div>
-                  <p>Symptoms:</p>
-                  <p>
-                    <ul>
-                    <li>Use and abuse of substances continue despite health problems</li>
-                    <li>An inability to stop the obsession</li>
-                    <li>Risking to take large doses</li>
-                    <li>Sleeplessness</li>
-                    </ul>
-                  </p>
-                    <button class="button">Click Here</button>
-                </div>
-              </div></a>
+        <div class="back">
+          <div>
+            <p>Symptoms:</p>
+            <p>
+            <ul>
+              <li>Feel sad, irritable, guilty and frustrated.</li>
+              <li>Feel lack in confidence and unable to concentrate.</li>
+              <li>Stop their usual enjoyable activities</li>
+              <li>Withdraw from close family and friends</li>
+              <li>Experience sleep problems, change of appetite and significant weight loss or gain.</li>
+            </ul>
+            </p>
+            <button class="button">Click Here</button>
           </div>
-    </section>
-    
-    <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-        crossorigin="anonymous"></script>
+        </div>
+      </a><a class="card" href="#!">
+        <div class="front" style="background-image: url(Assets/Images/ocdoriginal.png);">
+          <p>Obsessive compulsive disorder (OCD)</p>
+        </div>
+        <div class="back">
+          <div>
+            <p>Symptoms:</p>
+            <p>
+            <ul>
+              <li>Fear of contamination from germs, dirt, and other physical and environmental substances</li>
+              <li>Intrusive thoughts and images about sex, violence, accidents and other issues</li>
+              <li>Excessive concern with symmetry and orderliness</li>
+              <li>Excessive concerns about illness, religious issues or morality</li>
 
-    <!-- Custom JS -->
-    <script src="JS/index.js"></script>
+              <li>Excessive hand washing, showering and tooth brushing</li>
 
-    <!-- Jquery needed -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/scripts.js"></script>
+            </ul>
+            </p>
+            <button class="button">Click Here</button>
+          </div>
+        </div>
+      </a><a class="card" href="#!">
+        <div class="front" style="background-image: url(Assets/Images/PTSD.png)">
+          <p>Post-traumatic stress disorder (PTSD)</p>
+        </div>
+        <div class="back">
+          <div>
+            <p>Symptoms:</p>
+            <p>
+            <ul>
+              <li>Avoiding reminders of the event, such as thoughts, feelings, people, places, activities or situations
+                that bring back memories of the event.</li>
+              <li>Negative changes in feelings and thoughts, such as feeling angry, afraid, guilty, flat or numb, and
+                feeling cut off from others.</li>
+              <li>Being overly alert, becoming easily startled and constantly being on the lookout for signs of danger.
+              </li>
+            </ul>
+            </p>
+            <button class="button">Click Here</button>
+          </div>
+        </div>
+      </a><a class="card" href="#!">
+        <div class="front" style="background-image: url(Assets/Images/BIPOLAR.png)">
+          <p>Bipolar affective disorder</p>
+        </div>
+        <div class="back">
+          <div>
+            <p>Symptoms:</p>
+            <p>
+            <ul>
 
-    <!-- Function used to shrink nav bar removing paddings and adding black background -->
-    <script>
-        $(window).scroll(function () {
-            if ($(document).scrollTop() > 50) {
-                $('.nav').addClass('affix');
-                console.log("OK");
-            } else {
-                $('.nav').removeClass('affix');
-            }
-        });
-    </script>
+              <li>Going without sleep and difficulty concentrating</li>
+              <li>Thinking and speaking quickly</li>
+              <li>Reckless behaviour, such as overspending</li>
+              <li>Participating in unsafe sexual activity</li>
+              <li>Withdrawal from people and activities</li>
+              <li>Feelings of sadness and guilty</li>
+            </ul>
+            </p>
+            <button class="button">Click Here</button>
+          </div>
+        </div>
+      </a><a class="card" href="#!">
+        <div class="front" style="background-image: url(Assets/Images/PSYCHOSIS.png)">
+          <p>Psychosis</p>
+        </div>
+        <div class="back">
+          <div>
+            <p>Symptoms:</p>
+            <p>
+            <ul>
+              <li>Confused thinking</li>
+              <li>Delusions – false beliefs that are not shared by others.</li>
+              <li>Hallucinations – hearing, seeing, smelling or tasting something that isn't there.</li>
+              <li>Changed behaviours and feelings.</li>
+            </ul>
+            </p>
+            <button class="button">Click Here</button>
+          </div>
+        </div>
+      </a><a class="card" href="#!">
+        <div class="front" style="background-image: url(Assets/Images/addiction.png)">
+          <p>Addiction</p>
+        </div>
+        <div class="back">
+          <div>
+            <p>Symptoms:</p>
+            <p>
+            <ul>
+              <li>Use and abuse of substances continue despite health problems</li>
+              <li>An inability to stop the obsession</li>
+              <li>Risking to take large doses</li>
+              <li>Sleeplessness</li>
+            </ul>
+            </p>
+            <button class="button">Click Here</button>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+  <a name="quiz"></a>
+  <section class="container-fluid odd">
+    <img src="Assets/Images/wave6.png" alt="wave" class="wave">
+    <h1 class="heading-2 text-center text-capitalize pt-5">Take a quiz</h1>
+    <div class="row">
+      <div class="card" style="width: 18rem;">
+        <img src="Assets/Images/home.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Teenage</h5>
+          <p class="card-text">For people with age less than 20 years</p>
+          <a href="#" class="btn btn-primary">Start Quiz</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="Assets/Images/home.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Adult</h5>
+          <p class="card-text">For people between 20-50 years</p>
+          <a href="#" class="btn btn-primary">Start Quiz</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="Assets/Images/home.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Old Aged</h5>
+          <p class="card-text">For people with age more than 50 years</p>
+          <a href="#" class="btn btn-primary">Start Quiz</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <a name="contact"></a>
+  <section class="contact">
+    <div class="contact-container">
+      <div class="left-col">
+      </div>
+      <div class="right-col">
+        <h1>Contact us</h1>
+        <p class="h3">Planning to get in touch with us?</p>
+
+        <form id="contact-form" method="post">
+          <label for="name" class="h5">Full name</label>
+          <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+          <label for="message">Message</label>
+          <textarea rows="6" placeholder="Your Message" id="message" name="message" required></textarea>
+          <!--<a href="javascript:void(0)">--><button type="submit" id="submit" name="submit" class="btn">Send</button>
+          <!--</a>-->
+
+        </form>
+        <div id="error"></div>
+        <div id="success-msg"></div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p class="h4">Copyright &copy; <script>document.write(new Date().getFullYear());</script>, Team HackBit</p>
+  </footer>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+
+  <!-- Custom JS -->
+  <script src="JS/index.js"></script>
+
+  <!-- Jquery needed -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+
+  <!-- Function used to shrink nav bar removing paddings and adding black background -->
+  <script>
+    $(window).scroll(function () {
+      if ($(document).scrollTop() > 50) {
+        $('.nav').addClass('affix');
+        console.log("OK");
+      } else {
+        $('.nav').removeClass('affix');
+      }
+    });
+  </script>
 </body>
 
 </html>
