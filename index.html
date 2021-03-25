@@ -11,31 +11,29 @@
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="CSS/index.css">
-
-  <title>Hello, world!</title>
+  <link rel="icon" href="Assets/Images/favicon.jpg">
+  <title>Psyche Check</title>
 </head>
 
 <body>
   <!-- Navbar begins -->
-  <nav class="nav">
-    <div class="container">
+  <nav class="nav navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
       <div class="logo">
-        <a href="#">Your Logo</a>
+        <a href="#" class="navbar-brand"><img src="Assets/Images/LOGO.png" class="logoimg" alt=""></a>
       </div>
-      <div id="mainListDiv" class="main_list">
-        <ul class="navlinks">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#">News</a></li>
-          <li><a href="#quiz">Self Assessment</a></li>
-          <li><a href="#contact">Contact Us</a></li>
-          <li><a href="#">Login</a></li>
+      <button class="navbar-toggler navTrigger " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="collapse navbar-collapse" class="main_list">
+        <ul class="navlinks navbar-nav">
+          <li class="nav-item"><a href="#home">Home</a></li>
+          <li class="nav-item"><a href="#">News</a></li>
+          <li class="nav-item"><a href="#quiz">Self Assessment</a></li>
+          <li class="nav-item"><a href="#contact">Contact Us</a></li>
+          <li class="nav-item"><a href="#">Login</a></li>
         </ul>
       </div>
-      <span class="navTrigger">
-        <i></i>
-        <i></i>
-        <i></i>
-      </span>
     </div>
   </nav>
   <a name="home"></a>
@@ -168,14 +166,14 @@
   <a name="quiz"></a>
   <section class="container-fluid odd">
     <img src="Assets/Images/wave6.png" alt="wave" class="wave">
-    <h1 class="heading-2 text-center text-capitalize pt-5">Take a quiz</h1>
+    <h1 class="heading-2 text-center text-capitalize pt-5">Self Assessment</h1>
     <div class="row">
       <div class="card" style="width: 18rem;">
         <img src="Assets/Images/teen.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h3 class="card-title">Teenage</h3>
+          <h3 class="card-title">Teenager</h3>
           <p class="card-text h5">For people with age less than 20 years</p>
-          <a href="#" class="btn btn-primary">Start Quiz</a>
+          <a href="quizt.html" class="btn btn-primary">Start Quiz</a>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
@@ -183,15 +181,15 @@
         <div class="card-body">
           <h3 class="card-title">Adult</h3>
           <p class="card-text h5">For people between 20-50 years</p>
-          <a href="#" class="btn btn-primary">Start Quiz</a>
+          <a href="quiza.html" class="btn btn-primary">Start Quiz</a>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
         <img src="Assets/Images/old.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h3 class="card-title">Old Aged</h3>
+          <h3 class="card-title">Elderly People</h3>
           <p class="card-text h5">For people with age more than 50 years</p>
-          <a href="#" class="btn btn-primary">Start Quiz</a>
+          <a href="quizo.html" class="btn btn-primary">Start Quiz</a>
         </div>
       </div>
     </div>

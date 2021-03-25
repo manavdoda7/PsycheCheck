@@ -31,8 +31,13 @@ body {
     text-align: center;
     z-index: 50;
 }
-
-.nav div.logo {
+.logoimg{
+  height: 50px;
+  /* width: 50px; */
+}
+.nav div .logo {
+  /* margin-left: 0 !important; */
+  padding-left: 0 !important;
     float: left;
     width: auto;
     height: auto;
@@ -625,15 +630,11 @@ body {
   
   .contact .left-col {
     min-width: 45vw;
-    height: 70vh;
+    height: 80vh;
     background-image: url("../Assets/Images/contact.gif");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-  }
-  
-  .contact .logo {
-    width: 10rem;
-    padding: 1.5rem;
   }
   
   .contact .right-col {
@@ -809,58 +810,9 @@ body {
     }
   
   @media only screen and (max-width: 950px) {
-    .contact .logo {
-      width: 8rem;
+    .contact .left-col{
+      display: none;
     }
-    .contact h1 {
-      font-size: 1.75rem;
-    }
-    .contact p {
-      font-size: 0.7rem;
-    }
-    .contact input, .contact textarea, .contact button {
-      font-size: 0.65rem;
-    }
-    .contact .description {
-      font-size: 0.3rem;
-      margin-left: 0.4rem;
-    }
-    .contact button {
-      width: 7rem;
-    }
-    .contact .theme-switch-wrapper {
-      width: 120px;
-    }
-    .contact .theme-switch {
-    height: 28px;
-    width: 50px;
-  }
-  
-  .contact .theme-switch input {
-    display:none;
-  }
-  
-  .slider:before {
-    background-color: #fff;
-    bottom: 0.25rem;
-    content: "";
-    width: 20px;
-    height: 20px;
-    left: 0.25rem;
-    position: absolute;
-    transition: .4s;
-  }
-    input:checked + .slider:before {
-    transform: translateX(16px);
-  }
-  
-  .slider.round {
-    border-radius: 15px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-  }
   
 }
 
