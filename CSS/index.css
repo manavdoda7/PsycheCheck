@@ -31,7 +31,10 @@ body {
     text-align: center;
     z-index: 50;
 }
-
+.logoimg{
+  height: 50px;
+  /* width: 50px; */
+}
 .nav div.logo {
     float: left;
     width: auto;
@@ -625,7 +628,7 @@ body {
   
   .contact .left-col {
     min-width: 45vw;
-    height: 70vh;
+    height: 80vh;
     background-image: url("../Assets/Images/contact.gif");
     background-size: cover;
     background-repeat: no-repeat;
