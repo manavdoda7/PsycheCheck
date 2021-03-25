@@ -1,11 +1,11 @@
 # PsycheCheck
 “You don’t have to control your thoughts. You just have to stop letting them control you.”
 Symptoms and circumstances of mental health concerns come in nearly unlimited variation. But they are, above all, a normal part of being alive. One must care for not only your bodies, but also our emotions and thoughts.
-We can help you with:
-•	Diagnosing your mental health conditions
-•	Understanding your thoughts
-•	Finding your inner peace
-•	Improve your overall quality of life
+We can help you with: <br>
+•	Diagnosing your mental health conditions<br>
+•	Understanding your thoughts<br>
+•	Finding your inner peace<br>
+•	Improve your overall quality of life<br>
 
 
 Importance of improving mental health check-ups in India
