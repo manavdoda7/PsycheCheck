@@ -1,14 +1,14 @@
 # PsycheCheck
 “You don’t have to control your thoughts. You just have to stop letting them control you.”
 Symptoms and circumstances of mental health concerns come in nearly unlimited variation. But they are, above all, a normal part of being alive. One must care for not only your bodies, but also our emotions and thoughts.
-We can help you with: <br>
+<b>We can help you with:</b> <br>
 •	Diagnosing your mental health conditions<br>
 •	Understanding your thoughts<br>
 •	Finding your inner peace<br>
 •	Improve your overall quality of life<br>
 
 
-Importance of improving mental health check-ups in India
+<h2>Importance of improving mental health check-ups in India</h2>
 
 Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. Mahatma Gandhi quoted “A balanced intellect presupposes a harmonious growth of body, mind and soul.”
 
