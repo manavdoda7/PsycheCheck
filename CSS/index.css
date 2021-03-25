@@ -668,6 +668,13 @@ body {
     color: #442f5a;
     text-shadow: #555 3px 3px 10px;
   }
+  .contact h2{
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .contact ul{
+    font-size: 1.5rem;
+  }
   .contact label, .contact .description {
     color: var(#818386);
     text-transform: uppercase;
@@ -683,6 +690,7 @@ body {
   .contact input, .contact textarea, .contact label {
     width: 40vw;
     display: block;
+    /* border: 2px solid black; */
   }
   
   .contact p, .contact placeholder, .contact input, .contact textarea {
@@ -698,7 +706,7 @@ body {
     color: var(#010712);
     font-weight: 500;
     background: var(#FCFDFD);
-    border: none;
+    border: dotted 2px #000;
     border-bottom: 1px solid var(#818386);
     padding: 0.5rem 0;
     margin-bottom: 1rem;
@@ -825,4 +833,27 @@ footer {
   width: 100%;
   /* position: fixed;
   z-index: 1; */
+}
+
+/* Importance Section */
+.heading-3 {
+  width: 100%;
+  margin-left: 1rem;
+  font-weight: 900;
+  font-size: 3rem;
+  text-align: center;
+  /* text-transform: uppercase; */
+  letter-spacing: 0.1ch;
+  line-height: 1;
+  padding-bottom: 0.5em;
+  margin-bottom: 1rem;
+  position: relative;
+  color: #442f5a;
+  text-shadow: #555 3px 3px 10px;
+}
+.importance{
+  font-size: 1.5rem;
+  margin: 2%;
+  text-align: justify;
+  font-weight: 500;
 }
