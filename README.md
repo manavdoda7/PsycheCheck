@@ -12,7 +12,7 @@ Symptoms and circumstances of mental health concerns come in nearly unlimited va
 
 Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. Mahatma Gandhi quoted “A balanced intellect presupposes a harmonious growth of body, mind and soul.”
 
-A mentally strong and fit person is self-aware and confident about his choices and decisions. He has a positive sense towards different aspects of life and handles a difficult situation in a better way. When we are mentally healthy, we enjoy our life and environment, and the people in it. We can be creative, learn, try new things, and take risks.
+A mentally strong and fit person is selfaware and confident about his choices and decisions. He has a positive sense towards different aspects of life and handles a difficult situation in a better way. When we are mentally healthy, we enjoy our life and environment, and the people in it. We can be creative, learn, try new things, and take risks.
 
 But mental health and wellbeing are by far one of the most neglected areas in our country. According to a recent National Mental Health survey, approximately 150 million people in India need care for their mental health condition. The same survey also discovered that between 70 and 92 percent of these cases failed to receive treatment. The World Health Organisation says India has the highest number of teenage suicide rates globally.
 
